@@ -1,6 +1,7 @@
 
 public class Persona {
 	// atributos de clase
+	// son privados, para que resulten solo accesibles desde nuestros métodos públicos
 	private String name;
 	private int age;
 	private boolean isAdult;
@@ -30,6 +31,7 @@ public class Persona {
 	}
 	
 	// métodos modificadores (por convención comienzan con "set")
+	// indicamos "void" ("vacío"), ya que no esperamos que devulevan nada (no hay return)
 	public void setName(String name) {
 		this.name = name;
 	}
